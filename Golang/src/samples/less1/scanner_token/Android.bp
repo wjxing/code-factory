@@ -1,0 +1,10 @@
+// TODO: These should be handled
+art_static_dependencies {
+    name: "libart",
+    srcs: [
+        "jni_load.c",
+        "perf_jni.c",
+    ],
+    clang : true,
+}
+
